@@ -8,6 +8,10 @@ class Person {
   getAge = () => this.age;
 }
 
-const person1 = new Person("jon", 23);
-console.log(person1.getName());
-console.log(person1.getAge());
+class House {
+  constructor(address, price, residents) {
+    this.address = address;
+    this.price = price;
+    this.residents = residents;
+  }
+}
